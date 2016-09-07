@@ -3,7 +3,7 @@
 ```
 npm install vue-f7-plugin
 ```
-Then:
+Import:
 ```js
 import 'framework7';
 import Vue from 'vue';
@@ -13,7 +13,7 @@ const app = new Framework7({});
 
 Vue.use(VueF7Plugin, {app});
 ```
-Then:
+Use:
 ```js
 import Vue from 'vue';
 
