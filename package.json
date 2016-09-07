@@ -1,6 +1,6 @@
 {
   "name": "vue-f7-plugin",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A vue plugin to combine framework7",
   "main": "index.js",
   "scripts": {
