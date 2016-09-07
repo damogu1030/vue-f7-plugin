@@ -1,0 +1,19 @@
+<div class="page navbar-fixed" data-page="home" v-cloak>
+	<div class="navbar">
+		<navbar-inner :title="navbarTitle"></navbar-inner>
+	</div>
+	<div class="page-content">
+		<div class="list-block">
+			<ul>
+				<li v-for="item in menuList">
+					<a :href="item.link" class="item-link item-content">
+		        <div class="item-media"><i class="icon" :class="item.icon"></i></div>
+		        <div class="item-inner">
+		          <div class="item-title">{{item.title}}</div>
+		        </div>
+		      </a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
