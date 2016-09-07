@@ -29,6 +29,9 @@ app.onPageBeforeInit('about', page => {
 });
 ```
 ## Demo
+Please see http://www.dmgxmg.com/vue-f7-plugin/demo/
+
+Demo dev
 ```
 npm install
 npm run dev
